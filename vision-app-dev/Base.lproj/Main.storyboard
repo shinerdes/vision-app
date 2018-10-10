@@ -6,7 +6,6 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
-        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -37,9 +36,12 @@
                                         <state key="normal" title="FLASH OFF">
                                             <color key="titleColor" red="0.84705882352941175" green="0.27843137254901962" blue="0.11764705882352941" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
+                                        <connections>
+                                            <action selector="flashBtnWasPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xxr-Ly-sqK"/>
+                                        </connections>
                                     </button>
                                 </subviews>
-                                <color key="backgroundColor" red="0.32156862749999998" green="0.74117647060000003" blue="0.35294117650000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstItem="Roy-x1-LPC" firstAttribute="leading" secondItem="TS0-bt-fwe" secondAttribute="leadingMargin" id="A6M-Jp-X8n"/>
                                     <constraint firstAttribute="bottomMargin" secondItem="Roy-x1-LPC" secondAttribute="bottom" constant="20" id="f05-Mw-iMy"/>
